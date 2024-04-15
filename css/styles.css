@@ -19,6 +19,7 @@ h1 {
     margin: 20px auto;
     max-width: 600px;
     transition: box-shadow 0.3s ease;
+    text-decoration: none;
 }
 
 .exercicio:hover {
@@ -28,6 +29,11 @@ h1 {
 .exercicio h2 {
     color: #6a4c93; 
     margin-top: 0;
+}
+
+.exercicio ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .exercicio p {
